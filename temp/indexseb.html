@@ -1,0 +1,266 @@
+
+<!DOCTYPE HTML>
+<html>
+
+
+    <!-- DON'T TOUCH -->
+    <head>
+        <link rel="stylesheet" href="">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="stylesheet.css" rel="stylesheet">
+        <title>Wankers by Epitech</title>
+    </head>
+
+    <header>
+<!-- nav_bar composée de deux sections : nav_bar_top & search_div -->
+        <div id="nav_bar">
+<!-- nav_bar_top : Première section de la nav_bar : LOGO + Boutons de menu -->
+            <div id="nav_bar_top">
+                <div id="menu_item">
+                    <div id="menu"></div>
+                    <a href="#" class="menu_nav">HOME</a>
+                    <a href="#" class="menu_nav">SHOP</a>
+                    <a href="#" class="menu_nav">MAGAZINE</a>
+                </div>
+<!-- profile_menu : Bouton panier + LOGIN -->
+                <div id="profile_menu">
+                    <a href="#" id="cart"></a>
+                    <a href="#" class="menu_nav">LOGIN</a>
+                    <a href="#"  id="menu_hamburger"></a>
+                </div>
+            </div>
+<!-- search_div : Seconde section de la nav_bar : Icone recherche + Barre de recherche + Best match déroulant -->
+            <div id="search_div">
+                <div id="logo_search"></div>
+                <div id="nav_bar_search">
+                    <input id="search_input" type="text" placeholder="Search...">
+<!-- Best match déroulant -->
+                    <nav id="best_match">
+                        <ul>
+                          <li class="scrolling_menu"><a href="#">Best match &ensp;</a>
+                            <ul class="sub_menu">
+                              <li><a href="#">Match #1</a></li>
+                              <li><a href="#">Match #2</a></li>
+                              <li><a href="#">Match #3</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- END DON'T TOUCH -->
+
+    <body>
+        <div>
+
+        <div class=body_item_line> 
+            <div id="body_filter">
+                <div id="body_filter_title">
+                  FILTER BY
+                </div>
+                <div>
+                        <select class="body_filter_item">
+                            <option value="0">Collection</option>
+                            <option value="1" class="body_filter_item_option">Collection 1</option>
+                        </select>
+                </div>
+                <div>
+                        <select class="body_filter_item">
+                            <option value="0">Color</option>
+                            <option value="1" class="body_filter_item_option">Color 2</option>
+                        </select>
+                </div>
+                <div>
+                        <select class="body_filter_item">
+                            <option value="0" class="body_filter_item_option">Category</option>
+                            <option value="1" class="body_filter_item_option">Category 1</option>
+                        </select>
+                </div>
+                <div>
+                    <div id="body_filter_range_title">
+                        Price range
+                    </div>
+                    <div class="body_filter_range">
+                        <input id="minV" type="range" class="min-price"  value="50" min="50" max="10000" step="50">
+                        <input id="maxV" type="range" class="max-price" value="10000" min="50" max="10000" step="50">
+                      </div>
+                    <div class="price-content">
+                        <div>
+                            <p id="min-value">$50</p>
+                        </div>
+                        <div >
+                            <p id="max-value">$10000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+             
+
+            <div class="body_item">
+                <div><img class="body_item_img" src="./img_source/img_wankers/arthur.png" alt="arthur"></div>
+                    <div class="body_item_description">
+                        <div class="body_item_input">Arthur Asselin</div>
+                        <div class="body_item_price">$2600</div>
+                        <div class="body_item_job">guide touristique décadent</div>
+                            <div class="body_item_starsandcart">
+                                <div class="body_item_rating">
+                                    <div><img src="./img_source/img_website/Star - On.png" alt=star></div>
+                                    <div><img src="./img_source/img_website/Star - On.png" alt=star></div>
+                                    <div><img src="./img_source/img_website/Star - On.png" alt=star></div>
+                                    <div><img src="./img_source/img_website/Star - On.png" alt=star></div>
+                                    <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                                </div>
+                                <div class="body_item_fiver_cart"><img src="./img_source/img_website/Cart Button.png" alt=cart></div>
+                            </div>
+                            </div>   
+        </div>
+
+        <div class="body_item">
+            <div><img class="body_item_img" src="./img_source/img_wankers/images_resized/wanker_baptiste.png" alt="baptiste"></div>
+                <div class="body_item_description">
+                    <div class="body_item_input">Baptiste Legrand</div>
+                    <div class="body_item_price">$5200</div>
+                    <div class="body_item_job">skater de la mort</div>
+                        <div class="body_item_starsandcart">
+                             <div class="body_item_rating">
+                                <div><img src="./img_source/img_website/Star - On.png" alt=star></div>
+                                <div><img src="./img_source/img_website/Star - On.png" alt=star></div>
+                                <div><img src="./img_source/img_website/Star - On.png" alt=star></div>
+                                <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                                <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                            </div>
+                            <div class="body_item_fiver_cart"><img src="./img_source/img_website/Cart Button.png" alt=cart></div>
+                        </div>
+                        </div>   
+        </div>
+
+        <div class="body_item">
+            <div><img class="body_item_img" src="./img_source/img_wankers/images_resized/wanker_cosme.png" alt="cosme"></div>
+                <div class="body_item_description">
+                    <div class="body_item_input">Cosme Jovignot</div>
+                    <div class="body_item_price">$1,5</div>
+                    <div class="body_item_job">du muscle par palettes</div>
+                        <div class="body_item_starsandcart">
+                             <div class="body_item_rating">
+                                <div><img src="./img_source/img_website/Star - On.png" alt=star></div>
+                                <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                                <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                                <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                                <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                            </div>
+                            <div class="body_item_fiver_cart"><img src="./img_source/img_website/Cart Button.png" alt=cart></div>
+                        </div>
+                        </div>   
+        </div>
+            
+ 
+        <div class="body_item">
+            <div><img class="body_item_img" src="./img_source/img_wankers/images_resized/wanker_dino.png" alt="dino"></div>
+                <div class="body_item_description">
+                    <div class="body_item_input">Dino Buzzatti</div>
+                    <div class="body_item_price">$10000</div>
+                    <div class="body_item_job">chef monteur Ikea</div>
+                        <div class="body_item_starsandcart">
+                             <div class="body_item_rating">
+                                <div><img src="./img_source/img_website/Star - On.png" alt=star></div>
+                                <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                                <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                                <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                                <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                            </div>
+                            <div class="body_item_fiver_cart"><img src="./img_source/img_website/Cart Button.png" alt=cart></div>
+                        </div>
+                        </div>   
+        </div>
+  
+    
+
+
+    <div class="body_item">
+            <div><img class="body_item_img" src="./img_source/img_wankers/images_resized/wanker_jean.png" alt="jean"></div>
+                <div class="body_item_description">
+                    <div class="body_item_input">Jean</div>
+                    <div class="body_item_price">$158</div>
+                    <div class="body_item_job">clown d'anniversaire</div>
+                        <div class="body_item_starsandcart">
+                             <div class="body_item_rating">
+                                <div><img src="./img_source/img_website/Star - On.png" alt=star></div>
+                                <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                                <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                                <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                                <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                            </div>
+                            <div class="body_item_fiver_cart"><img src="./img_source/img_website/Cart Button.png" alt=cart></div>
+                        </div>
+                        </div>   
+        </div>
+     
+    
+    
+    <div class="body_item">
+        <div><img class="body_item_img" src="./img_source/img_wankers/images_resized/wanker_lorie.png" alt="lorie"></div>
+            <div class="body_item_description">
+                <div class="body_item_input">Lorie</div>
+                <div class="body_item_price">$1005</div>
+                <div class="body_item_job">dev en devenir</div>
+                    <div class="body_item_starsandcart">
+                         <div class="body_item_rating">
+                            <div><img src="./img_source/img_website/Star - On.png" alt=star></div>
+                            <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                            <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                            <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                            <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                        </div>
+                        <div class="body_item_fiver_cart"><img src="./img_source/img_website/Cart Button.png" alt=cart></div>
+                    </div>
+                    </div>   
+    </div>
+   
+
+
+<div class="body_item">
+    <div><img class="body_item_img" src="./img_source/img_wankers/images_resized/wanker_nicolas.png" alt="nicolas"></div>
+        <div class="body_item_description">
+            <div class="body_item_input">Nicolas Rocagel</div>
+            <div class="body_item_price">$250</div>
+            <div class="body_item_job">escort boy</div>
+                <div class="body_item_starsandcart">
+                     <div class="body_item_rating">
+                        <div><img src="./img_source/img_website/Star - On.png" alt=star></div>
+                        <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                        <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                        <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                        <div><img src="./img_source/img_website/Star.png" alt=star></div>
+                    </div>
+                    <div class="body_item_fiver_cart"><img src="./img_source/img_website/Cart Button.png" alt=cart></div>
+                </div>
+                </div>   
+</div>
+</div>  
+</div>
+</div>   
+</div>    
+
+<script src="range.js"></script>
+    </body>
+
+    <footer>
+        <a href="#" class="page">1</a>
+        <a href="#" class="page">2</a>
+        <a href="#" class="page">3</a>
+        <a href="#" class="page">4</a>
+        <a href="#" class="page">5</a>
+        <a href="#" class="page">6</a>
+        <a href="#" class="page">7</a>
+        <a href="#" class="page">8</a>
+        <a href="#" class="page">9</a>
+        <a href="#" class="page">10</a>
+        <a href="#" class="page">></a>
+    </footer>
+
+</html>
